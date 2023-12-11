@@ -11,7 +11,7 @@ from sklearn import linear_model
 import sklearn.metrics as sm
 from sklearn.preprocessing import PolynomialFeatures
 
-# Input file containing data - make sure to get the file from github
+# File input containing data - make sure to get the file from github
 input_file = 'data_multivar_regr.txt'
 
 # Load the data from the input file
