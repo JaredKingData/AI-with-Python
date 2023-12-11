@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeClassifier
 from utilities import visualize_classifier
 from sklearn.metrics import classification_report
 
-'''We will be using data in the ''data_decision_trees.txt' file. The first two values are input data, and the third is a target label.'''
+'''We will be using data in ''data_decision_trees.txt' file. The first two values are input data, and the third is a target label.'''
 
 # Load input data
 input_file = 'data_decision_trees.txt'
