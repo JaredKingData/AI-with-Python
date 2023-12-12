@@ -7,7 +7,7 @@ Created on Thu Dec 22 09:28:59 2022
 
 '''We are using a dataset available in sklearn.'''
 
-# Import relevant packages
+# Import packages
 import numpy as np
 from sklearn import datasets
 from sklearn.svm import SVR
