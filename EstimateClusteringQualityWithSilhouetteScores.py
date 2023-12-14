@@ -16,7 +16,7 @@ for num_clusters in values:
     kmeans = KMeans(init='k-means++', n_clusters=num_clusters, n_init=10)
     kmeans.fit(X)
     
-    # estimate the silhouette score for the current clustering model using euclidean distance metric
+    # estimating the silhouette score for the current clustering model using euclidean distance metric
     score = metrics.silhouette_score(X, kmeans.labels_, 
                                      metric='euclidean', sample_size=len(X))
 
