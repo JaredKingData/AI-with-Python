@@ -34,7 +34,7 @@ plt.title('Silhouette score vs number of clusters')
 num_clusters = np.argmax(scores) + values[0]
 print('\nOptimal number of clusters =', num_clusters)
 
-# plot data
+# plot these data
 plt.figure()
 plt.scatter(X[:,0], X[:,1], color='black', s=80, marker='o', facecolors='none')
 x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
